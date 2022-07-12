@@ -29,6 +29,7 @@ p {
 }
 
 .btn {
+  position: relative;
   text-decoration: none;
   color: #fff;
   font-size: 13px;
@@ -37,8 +38,26 @@ p {
   cursor: pointer;
   border: 1px solid #fff;
 }
-/* .container .btn::before{}
-.container .btn::after{} */
+.btn::before {
+  content: "";
+  display: flex;
+  position: absolute;
+  width: 40px;
+  height: 1px;
+  top: 50%;
+  left: -20px;
+  background-color: #fff;
+}
+.btn::after {
+  content: "";
+  display: flex;
+  position: absolute;
+  width: 40px;
+  height: 1px;
+  top: 50%;
+  right: -20px;
+  background-color: #fff;
+}
 
 /* ------------------------------------------------------------------------------------------------------ */
 

@@ -66,3 +66,7 @@ main iframe {
   color: red;
   border: 1px solid red;
 }
+.contact-us .column .btn::before,
+.contact-us .column .btn::after {
+  background-color: red;
+}

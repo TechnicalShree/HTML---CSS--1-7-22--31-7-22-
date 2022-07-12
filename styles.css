@@ -28,16 +28,6 @@ p {
   padding: 10px;
 }
 
-.btn {
-  text-decoration: none;
-  color: #fff;
-  font-size: 13px;
-  padding: 12px 34px;
-  background: transparent;
-  cursor: pointer;
-  border: 1px solid #fff;
-}
-
 header {
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
     url(./images/banner.png);
