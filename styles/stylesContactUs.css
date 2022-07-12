@@ -1,0 +1,68 @@
+header {
+  height: 50vh;
+  text-align: center;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(../images/aboutBanner.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  color: white;
+}
+header h1 {
+  margin-top: 6rem;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  padding: 5rem 0;
+}
+
+main iframe {
+  width: 100%;
+  margin: auto;
+}
+
+.contact-us {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-us .column {
+  flex-basis: 48%;
+  margin-bottom: 2rem;
+}
+.contact-us .column div {
+  display: flex;
+  margin-bottom: 2.5rem;
+  align-items: center;
+}
+.contact-us .column div .fa {
+  font-size: 1.5rem;
+  color: #e41212;
+  margin: 0.5rem 2rem 0.5rem 0.5rem;
+}
+.contact-us .column div h5 {
+  margin-bottom: 5px;
+  color: #4b4949;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.contact-us .column div p {
+  padding: 0;
+}
+
+.contact-us .column input,
+.contact-us .column textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+.contact-us .column .btn {
+  color: red;
+  border: 1px solid red;
+}
